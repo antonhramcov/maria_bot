@@ -13,7 +13,7 @@ import time
 storage: MemoryStorage = MemoryStorage()
 
 # Создаем объекты бота и диспетчера
-bot: Bot = Bot('7514860012:AAHbD09m7GYhPliUXo1HJOY77ztlyxtePEs')
+bot: Bot = Bot('')
 dp: Dispatcher = Dispatcher(storage=storage)
 
 
